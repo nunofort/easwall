@@ -1,0 +1,14 @@
+
+1.3
+- Some optimizations
+- Fix minor bug code
+- Fix on DNAT and SNAT rules
+- Minor fix in INPUT/OUTPUT/FORWARD rules Policy
+
+1.2
+- some optimizations and fixes
+- generate script with iptables commands
+- forward/nat rules support
+
+1.0 First Release
+

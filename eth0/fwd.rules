@@ -1,0 +1,11 @@
+#nat
+#allow 192.168.1.32 0 0 80 tcp 
+#dnat 192.168.1.32 80 192.168.1.8 80 tcp
+#snat 192.168.1.8 0 192.168.1.32 0 tcp
+#redir 192.168.1.32 80 192.168.1.8 80 tcp 
+
+##deny all 0 all 0 tcp log
+#deny all 0 all 0 tcp 
+
+
+

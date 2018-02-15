@@ -1,0 +1,11 @@
+allow all 0 80 tcp 
+allow all 0 443 tcp
+#allow all 0 20000 all
+allow all 0 51000:51999 all
+allow all 0 41000:41999 all
+allow all 0 20 all 
+allow all 0 21 all 
+#allow all 22 0 tcp
+#allow all 0 0 icmp log
+deny all 0 0 all log
+

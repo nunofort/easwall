@@ -1,0 +1,28 @@
+#RULE HOST SRC_PORT DST_PORT PROTO ?LOG
+allow all 0 53
+allow all 0 5353
+allow all 0 43
+allow all 0 80
+allow all 0 8080
+allow all 0 443
+allow all 0 22
+allow all 0 20,21 tcp
+allow all 0 20 tcp
+allow all 0 21 tcp
+allow all 0 23 tcp 
+allow all 0 25 tcp 
+allow all 0 1024:64000 all
+#allow all 0 9091
+allow all 0 1863
+allow all 0 6667
+allow all 0 6668
+# i2p
+#allow all 0 4444
+#allow all 0 4445
+#allow all 20000 0 
+#allow all 0 7654:7657
+# traceroute
+#allow all 0 33434:33534
+allow all 0 0 icmp
+#deny all 0 0
+#deny all 0 0 all log
